@@ -14,7 +14,7 @@ dependency "eks" {
 }
 
 terraform {
-  source = "git::ssh://git@github.com/stepanyan-areg/terraform-met.git//aws-dev-sandbox/aws/irsa?ref=main"
+  source = "git::ssh://git@github.com/stepanyan-areg/terrafrom-modules.git//aws-dev-sandbox/aws/irsa?ref=main"
 }
 
 

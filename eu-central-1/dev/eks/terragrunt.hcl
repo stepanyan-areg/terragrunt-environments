@@ -15,7 +15,7 @@ dependency "vpc" {
 }
 
 terraform {
-  source = "git::ssh://git@github.com/stepanyan-areg/terrafrom-modules.git//aws-dev-sandbox/aws/eks?ref=main"
+  source = "git::ssh://git@github.com/terrafrom-modules.git/terrafrom-modules.git//aws-dev-sandbox/aws/eks?ref=main"
 }
 
 inputs = {
